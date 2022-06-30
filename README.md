@@ -1,2 +1,2 @@
 # scrimba_course
-The Frontend Developer Career Path
+files from front-end developer career path course.
