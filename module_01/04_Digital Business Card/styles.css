@@ -19,6 +19,9 @@ body {
     justify-content: space-around;
     border-bottom: 12px solid #d8cefe;
 }
+body :hover {
+    box-shadow: 10px 10px 42px 6px rgba(216,206,254,0.75);
+}
 
 .container-2 {
     text-align: center;
