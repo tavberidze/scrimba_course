@@ -73,6 +73,7 @@ body {
 .guide {
     display: flex;
     height: 394px;
+    background-color: #A8DADC;
 }
 
 .card {
@@ -80,7 +81,7 @@ body {
     margin: auto;
     height: 294px;
     width: 500px;
-    background-color: #A8DADC;
+    background-color: white;
     box-shadow: 0px 6px 0px #1D3557;
     border-radius: 10px;    
     border-bottom: 12px solid #1D3557;
@@ -92,7 +93,7 @@ body {
 
 .guide-img {
     height: 240px;
-    border-radius: 50%;
+    border-radius: 20%;
     padding: 10px;
 }
 
