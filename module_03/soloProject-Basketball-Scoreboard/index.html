@@ -10,7 +10,32 @@
 </head>
 <body>
     <div class="container">
-
+        <button id="new-game" onclick="newGame()">NEW GAME</button>
+        <div class="titles">
+            <div class="board-side-home">
+                <h2>HOME</h2>
+                <div class="score">
+                    <h1 id="home-el">0</h1>
+                </div>
+                <div class="points">
+                    <button onclick="homeAddOne()">+1</button>
+                    <button onclick="homeAddTwo()">+2</button>
+                    <button onclick="homeAddThree()">+3</button>
+                </div>
+            </div>
+            <div class="board-side-guest">
+                <h2>GUEST</h2>
+                <div class="score">
+                    <h1 id="guest-el">0</h1>
+                </div>
+                <div class="points">
+                    <button onclick="guestAddOne()">+1</button>
+                    <button onclick="guestAddTwo()">+2</button>
+                    <button onclick="guestAddThree()">+3</button>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

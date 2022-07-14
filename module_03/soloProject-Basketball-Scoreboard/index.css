@@ -1,7 +1,71 @@
 body {
-    
+    font-family: "Verdana",sans-serif;
+    color: #EEEEEE;
+    margin-top: 250px;
+    background: #335d98;;
 }
 
 .container {
-    
+    display: flex;
+    flex-direction: row;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    margin: auto;
+    justify-content: center;
+}
+
+.board-side-home {
+    /* display: inline;
+    width: 575px/2;
+    height: 385px/2; */
+    margin-right: 100px;
+}
+
+.board-side-home h2 {
+    height: 36px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.board-side-guest h2 {
+    height: 36px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.titles {
+    display: flex;
+    margin: auto auto auto auto;
+
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    background: #335d98;
+    border-radius: 5px;
+}
+
+.score h1 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    font-size: 64px;
+}
+
+.points {
+    margin-top: 26px;
+    display: flex;
+    gap: 8px;
+}
+
+.points button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
 }
