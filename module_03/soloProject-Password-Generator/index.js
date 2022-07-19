@@ -11,10 +11,12 @@ function clear() {
 }
 
 function generatePassword() {
+    passwordOne.textContent = "";
     for (let i = 0; i <= 14; i++){
         let random = Math.floor(Math.random() * characters.length); 
         passwordOne.textContent += characters[random];
     }
+    passwordTwo.textContent = "";
     for (let o = 0; o <= 14; o++){
         let random = Math.floor(Math.random() * characters.length);
         passwordTwo.textContent += characters[random];
