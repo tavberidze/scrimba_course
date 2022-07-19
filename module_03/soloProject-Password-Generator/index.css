@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #1C1C1C;
+}
+
+.container {
+    background-color: #1F2937;
+    margin: auto auto;
+    width: 550px;
+    height: 550px;
+    border-radius: 4px;
+}
+
+.heading {
+    margin: 115px 144px auto 52px;
+    padding-top: 115px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;   
+}
+
+.heading-green {
+    color: #4ADF86;
+}
+
+.paragraph {
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 52px;
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 52px;
+    margin-top: 50px;
+}
+
+.divider {
+    width: 446px;
+    height: 0px;
+    margin: 35px auto auto auto;
+    border: 1px solid #2F3E53;
+}
+
+.output-el{
+    margin: 35px auto auto auto;
+    background: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 39px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #10B981;
+}
+
+.output-box {
+    display: flex;
+    margin: auto auto;
+    width: 446px;
+    gap: 24px;
+}
