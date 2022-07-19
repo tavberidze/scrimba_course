@@ -57,7 +57,7 @@ button {
     border: 1px solid #2F3E53;
 }
 
-.output-el{
+.output{
     margin: 35px auto auto auto;
     background: #273549;
     border-radius: 6px;
@@ -66,6 +66,18 @@ button {
     margin-left: 0;
     margin-right: 0;
     color: #10B981;
+}
+
+#output-el {
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#output-el-two {
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .output-box {

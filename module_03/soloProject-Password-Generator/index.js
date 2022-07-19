@@ -2,14 +2,22 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
-let passwordOne = document.getElementsByClassName("output-el");
-let passwordTwo = document.getElementsByClassName("two");
+let passwordOne = document.getElementById("output-el");
+let passwordTwo = document.getElementById("output-el-two");
 
 
+function clear() {
+    location.reload();
+}
 
 function generatePassword() {
-    for (let i = 0; i < 16; i++){
-        i = Math.floor((Math.random() * characters.length) + 1);  
-        passwordOne.textcontent = i;
+    for (let i = 0; i <= 14; i++){
+        let random = Math.floor(Math.random() * characters.length); 
+        passwordOne.textContent += characters[random];
     }
+    for (let o = 0; o <= 14; o++){
+        let random = Math.floor(Math.random() * characters.length);
+        passwordTwo.textContent += characters[random];
+    }
+
 }
